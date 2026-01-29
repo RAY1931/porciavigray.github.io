@@ -55,4 +55,20 @@ footer {
   border-radius: 50px;
   text-decoration: none;
   font-weight: bold;
+
   box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  @media (max-width: 768px) {
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  section {
+    margin: 10px;
+    padding: 25px;
+  }
+
+  header h1 {
+    font-size: 26px;
+  }
+}
